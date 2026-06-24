@@ -31,7 +31,7 @@ Proyecto del ramo **Taller Avanzado de Desarrollo de Software** — Ingeniería 
 | `puntos_coyhaique.json` | Base de datos local (se crea automáticamente al ejecutar la app). |
 | `static/vendor/` | Librerías del mapa descargadas (se crea con el notebook de instalación). |
 
-## 🚀 Instalación y uso
+##  Instalación y uso
 
 1. **Clona el repositorio:**
    ```bash
