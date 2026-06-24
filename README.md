@@ -1,4 +1,4 @@
-# 🌳 EcoRuta Coyhaique
+#  EcoRuta Coyhaique
 
 **Dashboard interactivo para consultar los puntos de reciclaje de Coyhaique:** dónde están, qué materiales reciben y si están **abiertos o cerrados en este momento**.
 
@@ -6,21 +6,21 @@ Proyecto del ramo **Taller Avanzado de Desarrollo de Software** — Ingeniería 
 
 ---
 
-## ✨ Características
+##  Características
 
-- 🗺️ **Mapa interactivo** (Leaflet) con los puntos georreferenciados y pines de color según su categoría.
-- 🟢 **Estado Abierto / Cerrado en tiempo real**, calculado en el navegador según el día y la hora local (se refresca cada 20 s).
-- 🧭 **Panel lateral** con estadísticas (total, abiertos, cerrados) y **filtros por categoría**.
-- 📋 **Ficha de detalle** por punto (panel deslizante): dirección, horario, qué reciclar, qué **no** dejar y botón **"Cómo llegar"**.
-- 💾 Base de datos local en **JSON** que se **autogenera** con los datos semilla si se elimina.
+-  **Mapa interactivo** (Leaflet) con los puntos georreferenciados y pines de color según su categoría.
+-  **Estado Abierto / Cerrado en tiempo real**, calculado en el navegador según el día y la hora local (se refresca cada 20 s).
+-  **Panel lateral** con estadísticas (total, abiertos, cerrados) y **filtros por categoría**.
+-  **Ficha de detalle** por punto (panel deslizante): dirección, horario, qué reciclar, qué **no** dejar y botón **"Cómo llegar"**.
+-  Base de datos local en **JSON** que se **autogenera** con los datos semilla si se elimina.
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - **Python 3.10+** y **Flask** (servidor web local).
 - **Leaflet.js** (cartografía), **HTML/CSS/JS** puro, **Font Awesome** (iconos) y **Google Fonts** (Baloo 2 + Montserrat).
 - Persistencia en **JSON**, sin bases de datos externas.
 
-## 📂 Estructura del repositorio
+##  Estructura del repositorio
 
 | Archivo | Descripción |
 |---|---|
@@ -45,19 +45,19 @@ Proyecto del ramo **Taller Avanzado de Desarrollo de Software** — Ingeniería 
    ```
    Para detener el servidor, presiona **CTRL + C** en la consola (o detén el kernel del notebook).
 
-> 💡 **Alternativa sin Jupyter:** `pip install flask` y luego `python DashEcoRuta.py` (si exportas el notebook a `.py`).
+>  **Alternativa sin Jupyter:** `pip install flask` y luego `python DashEcoRuta.py` (si exportas el notebook a `.py`).
 
-## 🌐 Sobre la conexión a internet
+##  Sobre la conexión a internet
 
 La aplicación usa **librerías locales** si ejecutaste el notebook de instalación (modo recomendado); de lo contrario, las carga desde internet (CDN) de forma automática.
 
-⚠️ **El fondo del mapa (las imágenes de las calles, o *tiles*) siempre se descarga en vivo**, por lo que **necesita conexión a internet** para mostrarse. Para una demostración sin riesgos, ten conexión disponible o abre la aplicación una vez antes con internet para que el navegador la guarde en caché.
+ **El fondo del mapa (las imágenes de las calles, o *tiles*) siempre se descarga en vivo**, por lo que **necesita conexión a internet** para mostrarse. Para una demostración sin riesgos, ten conexión disponible o abre la aplicación una vez antes con internet para que el navegador la guarde en caché.
 
-## 📊 Datos
+##  Datos
 
 Las ubicaciones, horarios y materiales aceptados de los **21 puntos** de reciclaje provienen de la planilla `Coordenadas_Puntos_Coyhaique.xlsx` y están cargados directamente en `DashEcoRuta.ipynb`.
 
-## 👤 Autor
+##  Autor
 
 **Daniel Herrero** — Ingeniería Civil Informática, Universidad de Aysén.
 
